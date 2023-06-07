@@ -34,7 +34,7 @@ document.write("Elemento 2ra posicion: " + arrayCiudad[1] + "<br> <br>");
 let lista = arrayCiudad.join("<br>"+"•" );
 
 document.write("Arreglo de Ciudades" + "<br>"  +"•"+ lista);
-*/
+
 
 //punto tres
 
@@ -88,6 +88,19 @@ for (let i = 0; i < 50; i++)
 }
 
 document.write("2: "+ dos + "<br>" + "3: "+ tres + "<br>" + "4: "+ cuatro + "<br>" + "5: "+ cinco + "<br>" + "6: "+ seis + "<br>" + "7: "+ siete + "<br>" + "8: "+ ocho + "<br>" + "9: "+ nueve + "<br>" + "10: "+ diez + "<br>" + "11: "+ once + "<br>" + "12: "+ doce + "<br>" );
+*/
 
+//punto cuatro
 
+function esPar(numero) {
+    if (numero % 2 == 0) 
+    {
+        document.write("es par")
+    }
+    else 
+    {
+        document.write("es impar")
+    }
+}
 
+esPar(5);

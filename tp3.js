@@ -104,7 +104,7 @@ function esPar(numero) {
 }
 
 esPar(5);
-*/
+
 
 
 //punto cinco
@@ -130,3 +130,26 @@ function MayusculasMinunculas (texto)
 MayusculasMinunculas("HOLA");
 MayusculasMinunculas("hola");
 MayusculasMinunculas("HolA");
+*/
+
+//punto seis
+
+let ladoA = parseFloat(prompt ("ingrese el valor de uno de los lados del rectangulo"));
+let ladoB = parseFloat(prompt ("ingrese el valor del otro lado del rectangulo"));
+perimetro(ladoA, ladoB);
+
+function perimetro(ladoA, ladoB) 
+{
+    document.write(2*(ladoA + ladoB));
+}
+
+/*
+function perimetro() 
+{
+    let ladoA = parseFloat (prompt ("ingrese el valor de uno de los lados del rectangulo"));
+    let ladoB = parseFloat (prompt ("ingrese el valor del otro lado del rectangulo"));
+    let resultado = 2*(ladoA + ladoB);
+    document.write(resultado);
+}
+
+perimetro();*/

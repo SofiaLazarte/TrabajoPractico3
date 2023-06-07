@@ -130,7 +130,7 @@ function MayusculasMinunculas (texto)
 MayusculasMinunculas("HOLA");
 MayusculasMinunculas("hola");
 MayusculasMinunculas("HolA");
-*/
+
 
 //punto seis
 
@@ -143,7 +143,7 @@ function perimetro(ladoA, ladoB)
     document.write(2*(ladoA + ladoB));
 }
 
-/*
+//punto seis solucion 2
 function perimetro() 
 {
     let ladoA = parseFloat (prompt ("ingrese el valor de uno de los lados del rectangulo"));
@@ -152,4 +152,22 @@ function perimetro()
     document.write(resultado);
 }
 
-perimetro();*/
+perimetro();
+*/
+
+//punto siete
+
+
+function tabla() 
+{
+    let numero = parseInt(prompt("Escriba el numero que quiera multiplicar"));
+    for (let i = 1; i <= 10; i++) 
+    {
+        let resultado = numero * i;
+        document.write( numero + " x " + i + " = " + resultado + "<br>");
+        
+    }
+    
+}
+
+tabla();

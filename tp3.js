@@ -88,7 +88,7 @@ for (let i = 0; i < 50; i++)
 }
 
 document.write("2: "+ dos + "<br>" + "3: "+ tres + "<br>" + "4: "+ cuatro + "<br>" + "5: "+ cinco + "<br>" + "6: "+ seis + "<br>" + "7: "+ siete + "<br>" + "8: "+ ocho + "<br>" + "9: "+ nueve + "<br>" + "10: "+ diez + "<br>" + "11: "+ once + "<br>" + "12: "+ doce + "<br>" );
-*/
+
 
 //punto cuatro
 
@@ -104,3 +104,29 @@ function esPar(numero) {
 }
 
 esPar(5);
+*/
+
+
+//punto cinco
+
+function MayusculasMinunculas (texto) 
+{
+   
+    if (texto == texto.toUpperCase() ) 
+    {
+    document.write("esta cadena de texto tiene mayusculas" + "<br>");
+    }
+    else if (texto == texto.toLowerCase()) 
+    {
+    document.write("esta cadena de texto tiene minusculas" + "<br>");
+    }
+    else 
+    {
+    document.write("esta cadena de texto tiene mezcla de mayusculas y minusculas");
+    }
+
+}
+
+MayusculasMinunculas("HOLA");
+MayusculasMinunculas("hola");
+MayusculasMinunculas("HolA");
